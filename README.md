@@ -48,10 +48,6 @@ npm run dev
 
 yarn start
 
-# Online Library System
-
-Welcome to the Online Library System! This is a simple and intuitive web application where users can browse books, view details about them, and even add new books to the library.
-
 ## Features Breakdown
 
 ### HomePage
