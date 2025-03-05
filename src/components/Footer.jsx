@@ -1,10 +1,9 @@
-// Footer Component
 import React from "react";
-
+import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-[#121212] text-gray-300 py-8 mt-10 border-t border-gray-700">
-      <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+      <div className="container mx-auto px-20 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         <p className="text-gray-400 text-sm">
           © {new Date().getFullYear()} BookHive. All rights reserved.
         </p>
@@ -20,6 +19,14 @@ const Footer = () => {
               </a>
             )
           )}
+          <a
+            href="https://github.com/Sahil-Bhowmick/Library-System.git"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-gray-100 transition duration-300"
+          >
+            <FaGithub className="text-4xl" />
+          </a>
         </div>
       </div>
     </footer>
